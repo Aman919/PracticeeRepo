@@ -1,0 +1,13 @@
+body{
+    padding: 0;
+    margin:0;
+    height: 600vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background: #90836a;
+    color: #000;
+}
+
+.header{
+    /* positio  */
+}

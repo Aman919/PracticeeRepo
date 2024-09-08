@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 250vh;
+	background: #363a3b;
+	/* overflow: hidden; */
+}
+
+section {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	position: relative;
+	color: #fff;
+	font-size: 3em;
+	font-family: consolas;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.image-container {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: 60vh;
+	background: #444;
+	overflow: hidden;
+}
+
+.image-container .image-slice {
+	position: absolute;
+	transition: all 1s ease-in-out;
+
+}
